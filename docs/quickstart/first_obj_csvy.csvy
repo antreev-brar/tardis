@@ -21,12 +21,18 @@ datatype:
        desc: fractional He abundance
     -  name: Si
        desc: fractional Si abundance
+    -  name: Co
+       desc: fractional Co abundance
 
 v_inner_boundary: 9000 km/s
-v_outer_boundary: 12000 km/s
+v_outer_boundary: 15000 km/s
 ---
-velocity,density,t_rad,H,He,Si
-9000, 5e-10, 7000, 1.0, 1.0, 1.0
-10000, 2.0e-10, 7000, 0.0, 0.99, 0.01
-11000, 9e-11, 7000, 0.4, 0.58, 0.02
-12000, 6e-11, 7000, 0.5, 0.4, 0.1
+velocity,density,t_rad,H,He,Si,Co
+9000, 5e-10, 7000, 1.0, 1.0, 1.0,1.0
+10000, 2.0e-10, 7000, 0.0, 0.97, 0.01, 0.02
+11000, 9e-11, 7000, 0.37, 0.5, 0.1, 0.03
+12000, 6e-11, 7000, 0.4, 0.45, 0.14, 0.01
+13000, 5e-11, 7000, 0.45, 0.5, 0.2, 0.04
+14000, 4e-11, 7000, 0.7, 0.2, 0.05, 0.05
+15000, 3e-11, 7000, 0.7, 0.02, 0.25, 0.01
+
